@@ -1,0 +1,1 @@
+cria uma string auxiliar pela replicacao da chave até completar todo o tamanho do texto e apenas soma cada um dos caracteres do texto;
