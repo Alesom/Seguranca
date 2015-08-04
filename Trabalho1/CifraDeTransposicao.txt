@@ -1,2 +1,0 @@
-Coloca-se o texto numa matriz de tamanho C (chave)  e transpoe e matriz;
-

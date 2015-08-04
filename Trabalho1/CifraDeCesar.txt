@@ -1,5 +1,0 @@
-Só trocar as letras do alfabeto conforme a chave;
-
-a chave é quantos caracteres é necessário mover
-
-
