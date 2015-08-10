@@ -5,7 +5,7 @@
 
 using namespace std;
 
-map < char, int> Ci;
+map < char, char > Ci;
 
 int main(int argc, char *argv[]){
 	char aux;
@@ -22,12 +22,10 @@ int main(int argc, char *argv[]){
 		i++;
 	}
 	
-	printf("%d\n", i);
-	
 	fseek(texto, 0, SEEK_SET);	
 	while (!feof( texto )){
 		fread(&aux, sizeof(char), 1, texto);
-		printf("%c", (char) Ci[ aux ] );
+		printf("%c", char ( Ci[ aux ] ) );
 	}
 	
 	fclose(chave);

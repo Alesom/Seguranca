@@ -5,7 +5,7 @@
 
 using namespace std;
 
-map < int, char> Ci;
+map < char, char > Ci;
 
 int main(int argc, char *argv[]){
 	char aux;
@@ -21,6 +21,9 @@ int main(int argc, char *argv[]){
 		Ci[ i ] = aux;
 		i++;
 	}
+	
+	
+	
 	
 	fseek(texto, 0, SEEK_SET);
 		
